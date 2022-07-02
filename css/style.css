@@ -21,7 +21,23 @@
   }
 
 .header, img {
-    max-width: 19%;
+    max-width: 18%;
+}
+
+.logo{
+    margin: -20px;
+    margin-left: 2px;
+    float: left;
+    padding: 0;
+   
+}
+
+.logo:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
 }
 
 .pizarra-acciones {
@@ -191,9 +207,11 @@ footer {
 }
 
 .imgRedes:hover {
-    transform: scale(1.2);
-    background-color: lightgray;
-    color: gray;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
 }
 
 .redes span {
