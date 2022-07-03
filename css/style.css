@@ -9,7 +9,7 @@
     border: 2px solid black;
     color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     /* text-transform: uppercase; */
     align-items: center;
     padding: 6px;
