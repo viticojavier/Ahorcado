@@ -9,10 +9,10 @@
     border: 2px solid black;
     color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-transform: uppercase;
     align-items: center;
-    padding: 4px;
+    padding: 6px;
 }
 
 .header, a {
@@ -20,16 +20,12 @@
     cursor: pointer;    
   }
 
-.header, img {
-    max-width: 18%;
-}
-
 .logo{
+    max-width: 2.5em;    
     margin: -20px;
     margin-left: 2px;
     float: left;
     padding: 0;
-   
 }
 
 .logo:hover{
@@ -198,7 +194,8 @@ footer {
     margin-right: 16px;
 }
 
-.imgRedes{
+.boton-footer{
+    max-width: 2.5em;    
     border: 2px solid black;
     color: black;
     justify-content: space-around;
@@ -206,7 +203,7 @@ footer {
     padding: 0px 4px;
 }
 
-.imgRedes:hover {
+.boton-footer:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -217,10 +214,6 @@ footer {
 .redes span {
     border-style: none;
     margin: 0 4px;
-}
-
-.redes img {
-    max-width: 4%;
 }
 
 /* JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS JAVASCRIPT CSS */
