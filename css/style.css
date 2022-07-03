@@ -149,11 +149,11 @@ canvas {
 }
 
 .intentos-restantes {
-    margin: 16px auto;
+    margin: auto;
     text-align: center;
     color: lightpink;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
     text-shadow: 0 0 10px black;
 }
 
